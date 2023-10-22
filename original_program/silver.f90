@@ -43,7 +43,7 @@ MODULE variables
       REAL(DP), DIMENSION(3,0:3,ndim)     :: Lcbl_xyz, X10, X11, X00, X1dt, X1dt0, X1dt2, X1dt20, X1dt1, X1dt21, Flow1dt
       REAL(DP), DIMENSION(ndim,ndim)     :: Xs, Xsdt, Xsdt0, FXs
       REAL(DP), DIMENSION(24,24,ndim)    :: Mass1, Kl1, Kb1, Kall1
-      REAL(DP), DIMENSION(3,0:1,4)            ::  rungeKob, rungeKab
+      REAL(DP), DIMENSION(3,0:1,4)            ::  rungeKob, rungeKab !テスト
       REAL(DP), DIMENSION(ndim2,ndim2)    :: M_st1, K_st1
       REAL(DP), DIMENSION(ndim2)          :: Fout1, Fext1
       REAL(DP), DIMENSION(ndim)            :: top_x, top_y
